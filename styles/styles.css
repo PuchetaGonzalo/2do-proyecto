@@ -1,0 +1,168 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;   
+}
+/* variables */
+:root {
+    --violet:rgba(87,46,229,0.9);
+    --white:rgb(255, 255, 255);
+    --cyan:rgba(94,215,198,1);
+    --grey:rgba(156,175,195,1);
+    --black:rgba(0,0,0,1);
+}
+@media screen and (max-width: 1000px) {
+header {
+    border-top: 5px solid var(--violet);
+    width: 100%;
+    position: relative;
+    height: 95px;
+    top: 0;
+    padding: 5%;
+    z-index: 99;
+    background-color:var(--white);
+}
+header img {
+    float: left;
+    padding-top: 5px;
+}
+header nav {
+    float: right;
+    padding-top: 15px;
+}
+header nav .menu ul {
+    width: 100%;
+    position: absolute;
+    top: 95px;
+    right: 0;
+    overflow: hidden;
+    background:var(--violet);
+    opacity:0.9;
+    height: 0px;
+    transition: height 0.5s ease;
+}
+header nav .menu  ul li {
+    position: relative;
+} 
+header nav .menu ul li a {
+    position: relative;
+    text-decoration: none;
+    color: var(--white);
+    padding: 7%;
+    line-height: 28px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'IBM Plex Mono';
+}
+header nav .menu  ul li a:hover {
+    color:var(--white);
+} 
+header nav .menu input[type="checkbox"]:checked ~ ul {
+    height: 484px;
+    transition: height 0.5s ease-in-out;
+    }
+header nav .menu {
+    padding-top: 3px;
+}
+header nav .menu input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    opacity: 0;
+    z-index: 2;
+    position: absolute;
+}
+header nav .menu span {
+    display: block;
+    width: 25px;
+    height: 2.5px;
+    margin-bottom: 6.5px;
+    position: relative;
+    background: var(--violet);
+    z-index: 1;
+    transform-origin: 3px 0px;
+    transition: transform 0.5s ease,
+        opacity 0.55s ease;
+}
+header nav .menu span:first-child {
+    transform-origin: 0% 0%;
+}
+header nav .menu span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+header nav .menu input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(2px, 1px);
+}
+header nav .menu input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+header nav .menu input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(1px, 0px);
+}
+body {
+    display: block
+}
+section div.first-header {
+    margin:0 auto;
+    text-align: center;
+    width: 286px;
+    height: 99px;
+    display: block;
+    color: var(--violet);
+    font-size: 25px;
+}
+span.gifos {
+    color:var(--cyan);
+}
+div.image-container img{
+    margin: 10% 10% 0 10%;
+    margin-top: 70px;
+    width: 273px;
+    height: 130px;
+    display:block;
+    margin-left: 50px;
+}
+div.search-box {
+    margin-left: auto;
+    margin-right: auto;
+    top: 367px;
+    left: 4.2%;
+    border: 1px var(--violet) solid;
+    width: 334px;
+    height: 50px;
+    border-radius: 27px;
+}
+div.search-box .icon {
+    margin: 15px;
+    position: relative; 
+    color:var(--violet);
+    float: right;
+    width:20px;
+    height: 20px;
+}
+div.search-box #search {
+    font-size: 16px;
+    color:var(--black);
+    margin: 15px;
+    margin-left: 60px;
+}
+h2 { 
+    width: 236px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align:center;
+    color: var(--violet)
+}
+p {
+    width: 225px;
+    margin: 0 auto;
+    color:var(--violet);
+    text-align:justify;
+}
+}
