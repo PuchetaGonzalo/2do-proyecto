@@ -11,7 +11,7 @@
     --violet:rgba(87,46,229,0.9);
     --white:rgb(255, 255, 255);
     --cyan:rgba(94,215,198,1);
-    --grey:rgba(156,175,195,1);
+    --grey:rgba(243,245,248,1);
     --black:rgba(0,0,0,1);
 }
 @media screen and (max-width: 1000px) {
@@ -121,20 +121,18 @@ span.gifos {
     color:var(--cyan);
 }
 div.image-container img{
-    margin: 10% 10% 0 10%;
+    margin: 10% auto 0;
     margin-top: 70px;
     width: 273px;
     height: 130px;
     display:block;
-    margin-left: 50px;
 }
 div.search-box {
     margin-left: auto;
     margin-right: auto;
     top: 367px;
-    left: 4.2%;
     border: 1px var(--violet) solid;
-    width: 334px;
+    max-width: 334px;
     height: 50px;
     border-radius: 27px;
 }
@@ -149,10 +147,10 @@ div.search-box .icon {
 div.search-box #search {
     font-size: 16px;
     color:var(--black);
-    margin: 15px;
+    margin-top: 15px;
     margin-left: 60px;
 }
-h2 { 
+main .start div h2 { 
     width: 236px;
     margin: 0 auto;
     margin-top: 60px;
@@ -163,6 +161,48 @@ p {
     width: 225px;
     margin: 0 auto;
     color:var(--violet);
-    text-align:justify;
+    text-align:center;
+}
+/*Slider-GIFOS*/
+.sliderGIFOS {
+    margin-top: 40px;
+    height: 430px;
+    background-color: var(--grey);
+}
+.sliderGIFOS h2 {
+    position: relative;
+    top: 35px;
+    text-align:center;
+    color: var(--violet)
+}
+.sliderGIFOS p {
+    position: relative;
+    top: 45px;
+    color: var(--black);
+}
+footer {
+    height: 196px;
+    position: relative;
+    top: 35px;
+    border-bottom: 5px solid var(--violet);
+}
+footer p:first-child {
+    color:var(--black);
+}
+.social {
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.social a {
+    margin: 10px;
+    color: var(--grey);
+}
+footer p:last-child {
+    width: 100%;
+    top: 75px;
+    color: var(--black);
+    position: relative;
 }
 }
