@@ -14,6 +14,7 @@
     --grey:rgba(243,245,248,1);
     --black:rgba(0,0,0,1);
 }
+/*mobile */
 @media screen and (max-width: 1000px) {
 header {
     border-top: 5px solid var(--violet);

@@ -1,0 +1,80 @@
+@import "components/colors";
+@import "components/reset";
+@import "components/burguer";
+@import "components/slider";
+
+
+
+
+/*Landing page*/
+header {
+    border-top: 5px solid $violet;
+}
+section div.first-header {
+    margin:0 auto;
+    text-align: center;
+    width: 286px;
+    height: 99px;
+    display: block;
+    color: $violet;
+    font-size: 25px;
+}
+span.gifos {
+    color:$cyan;
+}
+div.image-container img{
+    margin: 10% auto 0;
+    margin-top: 70px;
+    width: 273px;
+    height: 130px;
+    display:block;
+}
+div.search-box {
+    margin-left: auto;
+    margin-right: auto;
+    top: 367px;
+    border: 1px $violet solid;
+    max-width: 334px;
+    height: 50px;
+    border-radius: 27px;
+}
+div.search-box .icon {
+    margin: 15px;
+    position: relative; 
+    color:$violet;
+    float: right;
+    width:20px;
+    height: 20px;
+}
+div.search-box #search {
+    font-size: 16px;
+    color:$black;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+main .start div h2 { 
+    width: 236px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align:center;
+    color: $violet
+}
+p {
+    width: 225px;
+    margin: 0 auto;
+    color:$violet;
+    text-align:center;
+}
+/*favoritos && mis GIFOS*/
+.img-little {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+h1 {
+    text: {
+    align: center;
+    }
+    color:$violet; 
+    padding-top: 15px;
+}
