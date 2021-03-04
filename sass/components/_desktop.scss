@@ -61,4 +61,46 @@ section div.first-header {
                 position: relative;
                 }
             }
+header nav .menu ul {
+        min-height: 100px;
+        position: relative;
+        top: -50px;
+        right: 0;
+        overflow: hidden;
+        background: unset;
+        height: unset;
+            li {
+            padding: 5px 10px;
+            display: inline-block;
+            &:last-child {
+                position: relative;
+                top: 25px;
+                z-index: 99;
+            }
+                &:hover {
+                    background: unset;
+                    color: $violet ;
+                    text-decoration:underline $cyan ;
+                }
+                &:active {
+                    background: unset;
+                    color: $grey ;
+                    text-decoration: none;
+                } 
+                a {
+                    color: $violet;
+                    padding: unset;
+                    line-height: unset;
+                    &:hover {
+                        color: unset;
+                    } 
+                }
+            } 
+} 
+header nav .menu input {
+    display: none;
+}
+header nav .menu span {
+    display: none;
+    }
 }

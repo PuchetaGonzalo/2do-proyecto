@@ -10,7 +10,7 @@ header {
   position: relative;
   height: 95px;
   top: 0;
-  padding: 5%;
+  padding: 2% 5%;
   z-index: 99;
   background-color: white; }
   header img {
@@ -222,7 +222,43 @@ footer p:last-child {
       width: 300px;
       top: 0px;
       color: black;
-      position: relative; } }
+      position: relative; }
+
+  header nav .menu ul {
+    min-height: 100px;
+    position: relative;
+    top: -50px;
+    right: 0;
+    overflow: hidden;
+    background: unset;
+    height: unset; }
+    header nav .menu ul li {
+      padding: 5px 10px;
+      display: inline-block; }
+      header nav .menu ul li:last-child {
+        position: relative;
+        top: 25px;
+        z-index: 99; }
+      header nav .menu ul li:hover {
+        background: unset;
+        color: rgba(87, 46, 229, 0.9);
+        text-decoration: underline #5ed7c6; }
+      header nav .menu ul li:active {
+        background: unset;
+        color: #f3f5f8;
+        text-decoration: none; }
+      header nav .menu ul li a {
+        color: rgba(87, 46, 229, 0.9);
+        padding: unset;
+        line-height: unset; }
+        header nav .menu ul li a:hover {
+          color: unset; }
+
+  header nav .menu input {
+    display: none; }
+
+  header nav .menu span {
+    display: none; } }
 .sliderGIFOS {
   margin-top: 40px;
   height: 430px;
@@ -276,6 +312,9 @@ main .start div h2 {
   color: rgba(87, 46, 229, 0.9); }
 
 /*favoritos && mis GIFOS*/
+.little-img {
+  padding-top: 60px; }
+
 .img-little {
   display: flex;
   position: relative;
