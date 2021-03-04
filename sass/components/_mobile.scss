@@ -1,16 +1,11 @@
-@import "components/colors";
-@import "components/reset";
-@import "components/burguer";
-@import "components/mobile";
-@import "components/desktop";
-@import "components/slider";
-
-
-
-
-/*Landing page*/
-header {
-    border-top: 5px solid $violet;
+section div.first-header {
+    margin:0 auto;
+    text-align: center;
+    width: 286px;
+    height: 99px;
+    display: block;
+    color: $violet;
+    font-size: 25px;
 }
 span.gifos {
     color:$cyan;
@@ -21,6 +16,15 @@ div.image-container img{
     width: 273px;
     height: 130px;
     display:block;
+}
+div.search-box {
+    margin-left: auto;
+    margin-right: auto;
+    top: 367px;
+    border: 1px $violet solid;
+    max-width: 334px;
+    height: 50px;
+    border-radius: 27px;
 }
 div.search-box .icon {
     margin: 15px;
@@ -35,7 +39,6 @@ div.search-box #search {
     color:$black;
     margin-top: 15px;
     margin-left: 60px;
-    color: $grey;
 }
 main .start div h2 { 
     width: 236px;
@@ -49,17 +52,4 @@ p {
     margin: 0 auto;
     color:$violet;
     text-align:center;
-}
-/*favoritos && mis GIFOS*/
-.img-little {
-    display: flex;
-    position: relative;
-    margin: 0 auto;
-}
-h1 {
-    text: {
-    align: center;
-    }
-    color:$violet; 
-    padding-top: 15px;
-}
+}   

@@ -1,5 +1,4 @@
-@media screen and (max-width: 1000px) {
-    header {
+header {
         width: 100%;
         position: relative;
         height: 95px;
@@ -87,5 +86,4 @@
     }
     header nav .menu input:checked ~ span:nth-last-child(2) {
         transform: rotate(-45deg) translate(1px, 0px);
-    }
 }
