@@ -14,29 +14,4 @@
     top: 45px;
     color: $black;
 }
-footer {
-    height: 196px;
-    position: relative;
-    top: 35px;
-    border-bottom: 5px solid $violet;
-}
-footer p:first-child {
-    color:$black;
-}
-.social {
-    top: 20px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-.social a {
-    margin: 10px;
-    color: $grey;
-}
-footer p:last-child {
-    width: 100%;
-    top: 75px;
-    color: $black;
-    position: relative;
-    }
 

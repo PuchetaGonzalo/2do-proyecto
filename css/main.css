@@ -141,43 +141,6 @@ p {
   color: rgba(87, 46, 229, 0.9);
   text-align: center; }
 
-@media screen and (min-width: 1000px) {
-  section div.first-header {
-    margin: 0 auto;
-    text-align: center;
-    width: 550px;
-    height: 100px;
-    display: block;
-    color: rgba(87, 46, 229, 0.9);
-    font-size: 25px; }
-
-  div.search-box {
-    margin-left: auto;
-    margin-right: auto;
-    top: 367px;
-    border: 1px rgba(87, 46, 229, 0.9) solid;
-    max-width: 551px;
-    height: 50px;
-    border-radius: 27px; }
-    div.search-box #search {
-      width: 400px;
-      color: #f3f5f8; } }
-.sliderGIFOS {
-  margin-top: 40px;
-  height: 430px;
-  background-color: #f3f5f8; }
-
-.sliderGIFOS h2 {
-  position: relative;
-  top: 35px;
-  text-align: center;
-  color: rgba(87, 46, 229, 0.9); }
-
-.sliderGIFOS p {
-  position: relative;
-  top: 45px;
-  color: black; }
-
 footer {
   height: 196px;
   position: relative;
@@ -202,6 +165,79 @@ footer p:last-child {
   top: 75px;
   color: black;
   position: relative; }
+
+@media screen and (min-width: 1000px) {
+  section div.first-header {
+    margin: 0 auto;
+    text-align: center;
+    width: 550px;
+    height: 100px;
+    display: block;
+    color: rgba(87, 46, 229, 0.9);
+    font-size: 25px; }
+
+  div.search-box {
+    margin-left: auto;
+    margin-right: auto;
+    top: 367px;
+    border: 1px rgba(87, 46, 229, 0.9) solid;
+    max-width: 551px;
+    height: 50px;
+    border-radius: 27px; }
+    div.search-box #search {
+      width: 400px;
+      color: #f3f5f8; }
+
+  p {
+    width: 320px;
+    margin: 0 auto;
+    color: rgba(87, 46, 229, 0.9);
+    text-align: center; }
+
+  footer {
+    top: 0px;
+    display: flex;
+    height: 116px;
+    position: relative;
+    border-bottom: 5px solid rgba(87, 46, 229, 0.9); }
+    footer p:first-child {
+      position: relative;
+      left: 50px;
+      color: black;
+      width: 150px;
+      margin: auto 0 auto auto; }
+    footer .social {
+      position: relative;
+      left: 50px;
+      top: 0px;
+      display: flex;
+      margin: auto 0;
+      padding: 0;
+      justify-content: space-between; }
+      footer .social a {
+        margin: 0 10px;
+        color: #f3f5f8; }
+    footer p:last-child {
+      margin: auto auto;
+      width: 300px;
+      top: 0px;
+      color: black;
+      position: relative; } }
+.sliderGIFOS {
+  margin-top: 40px;
+  height: 430px;
+  background-color: #f3f5f8; }
+
+.sliderGIFOS h2 {
+  position: relative;
+  top: 35px;
+  text-align: center;
+  color: rgba(87, 46, 229, 0.9); }
+
+.sliderGIFOS p {
+  position: relative;
+  top: 45px;
+  color: black; }
 
 /*Landing page*/
 header {
@@ -238,12 +274,6 @@ main .start div h2 {
   margin-top: 60px;
   text-align: center;
   color: rgba(87, 46, 229, 0.9); }
-
-p {
-  width: 225px;
-  margin: 0 auto;
-  color: rgba(87, 46, 229, 0.9);
-  text-align: center; }
 
 /*favoritos && mis GIFOS*/
 .img-little {

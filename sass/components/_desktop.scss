@@ -21,4 +21,44 @@ section div.first-header {
             color: $grey;
         }
     }
+    p {
+        width:320px;
+        margin: 0 auto;
+        color:$violet;
+        text-align:center;
+    }
+    footer {
+        top: 0px;
+        display: flex;
+        height: 116px;
+        position: relative;
+        border-bottom: 5px solid $violet;
+            p:first-child {
+                position:relative;
+                left: 50px;
+                color:$black;
+                width:150px;
+                margin: auto 0 auto auto;
+            }
+            .social {
+                position: relative;
+                left: 50px;
+                top: 0px;
+                display: flex;
+                margin: auto 0;
+                padding : 0;
+                justify-content : space-between;
+                a { 
+                    margin: 0 10px;
+                    color: $grey;
+                }
+            }
+            p:last-child {
+                margin: auto auto ;
+                width:300px;
+                top: 0px;
+                color: $black;
+                position: relative;
+                }
+            }
 }
